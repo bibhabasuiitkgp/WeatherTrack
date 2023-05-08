@@ -19,8 +19,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <img className="card-img" src="/img/hot.jpg" /> */}
-      <img className="card-img" src={(typeof data.main != "undefined") ? ((data.main.temp > 16) ? "/img/hot.jpg" : "/img/cold.jpg") : "/img/cold.jpg"} />
+      {/* <img className="card-img" src="/WeatherTrack/img/hot.jpg" /> */}
+      <img className="card-img" src={(typeof data.main != "undefined") ? ((data.main.temp > 16) ? "/WeatherTrack/img/hot.jpg" : "/WeatherTrack/img/cold.jpg") : "/WeatherTrack/img/cold.jpg"} />
       <div className="search">
         <input
           value={location}
