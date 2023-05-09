@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/WeatherTrack/static/css/main.b8b02cff.css",
-    "main.js": "/WeatherTrack/static/js/main.d9bc5b24.js",
+    "main.js": "/WeatherTrack/static/js/main.fa8f2a66.js",
     "index.html": "/WeatherTrack/index.html",
     "main.b8b02cff.css.map": "/WeatherTrack/static/css/main.b8b02cff.css.map",
-    "main.d9bc5b24.js.map": "/WeatherTrack/static/js/main.d9bc5b24.js.map"
+    "main.fa8f2a66.js.map": "/WeatherTrack/static/js/main.fa8f2a66.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b02cff.css",
-    "static/js/main.d9bc5b24.js"
+    "static/js/main.fa8f2a66.js"
   ]
 }
