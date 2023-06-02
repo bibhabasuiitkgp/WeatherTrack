@@ -6,7 +6,6 @@ function App() {
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
 
-  // const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=12632496e05e60ad602cb71db589018e`
 
   const url = `${API_URL}?q=${location}&units=metric&appid=${API_KEY}`;
 
@@ -22,7 +21,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <img className="card-img" src="/WeatherTrack/img/hot.jpg" /> */}
       <img className="card-img" src={(typeof data.main != "undefined") ? ((data.main.temp > 16) ? "/WeatherTrack/img/hot.jpg" : "/WeatherTrack/img/cold.jpg") : "/WeatherTrack/img/cold.jpg"} />
       <div className="search">
         <input
